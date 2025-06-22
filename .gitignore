@@ -1,0 +1,18 @@
+# Rust
+**/target
+**/*.rs.bk
+
+# 忽略 Cargo.lock 對於 library crate（如果是 binary 可保留）
+Cargo.lock
+
+# 忽略可執行檔（如果有手動建立）
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# 忽略 IDE 設定
+**/.idea/
+**/.vscode/
+**/*.swp
