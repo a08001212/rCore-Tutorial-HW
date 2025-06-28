@@ -1,0 +1,5 @@
+[build]
+rustflags = [
+  "-C", "force-frame-pointers=yes", # 禁止內連
+  "-C", "debuginfo=2"
+]
